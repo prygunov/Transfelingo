@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Transfelingo</string>
+    <string name = "choiceLang"> Acceso rápido </string>
+    <string name = "settings"> Preferencias </string>
+    <string name = "choice"> Favoritos </string>
+    <string name = "translate"> Translate </string>
+    <string name = "quickt"> Iniciar QuickT </string>
+    <string name = "langVoice"> Idioma de entrada de voz </string>
+    <string name = "quicktt"> Instantánea rápida </string>
+    <string name = "quickdesc"> Si selecciona esta función, QuickT traducirá inmediatamente el texto, sin confirmación, a los idiomas que están instalados en el traductor. </string>
+    <string name = "emptyc"> No hay nada aquí todavía;) </string>
+    <string name = "startw"> Comience a escribir … </string>
+    <string name = "now"> Ahora solo copie las palabras;) </string>
+    <string name = "quickstart"> Start QuickT </string>
+    <string name = "quickstop"> Detener QuickT </string>
+    <string name = "delitem"> ¿Desea eliminar el elemento del historial? </string>
+    <string name = "del"> Eliminar? </string>
+    <string name = "yes"> Sí </string>
+    <string name = "no"> None </string>
+    <string name = "transl"> Traducción: </string>
+    <string name = "syn"> Sinónimos: </string>
+    <string name = "mean"> Valores: </string>
+    <string name = "ex"> Ejemplos: </string>
+    <string name = "error"> Ocurrió un error, no se puede conectar al servidor. </string>
+    <string name = "rod">. género </string>
+    <string name = "count">. número </string>
+    <string name = "transcription">, transcription: </string>
+    <string name = "send"> Enviar </string>
+    <string name = "fullsc"> Pantalla completa </string>
+    <string name = "loading"> Cargando … </string>
+    <string-array name = "voiceLang">
+        <item> ruso </item>
+        <item> turco </item>
+        <item> Inglés </item>
+        <item> Ucraniano </item>
+    </string-array>
+    <string name = "title_activity_sellect_lang"> SellectLangActivity </string>
+    <string name = "delete_text"> Eliminar texto con deslizamiento </string>
+    <string name = "text_copied"> Se copió el texto </string>
+    <string name = "key_invalid"> La clave de API no es válida. </string>
+    <string name = "key_locked"> La clave API está bloqueada. </string>
+    <string name = "limit"> Se excedió el límite diario para el número de solicitudes. </string>
+    <string name = "textsizeerror"> Se ha excedido el tamaño máximo de texto. </string>
+    <string name = "dirisntsupp"> La dirección de traducción especificada no es compatible. </string>
+    <string name = "textcntbetr"> El texto no se puede traducir </string>
+    <string name = "fromwhat"> ¿De qué idioma estamos traduciendo? </string>
+    <string name = "towhat"> ¿A qué idioma?) </string>
+    <string name = "somewr"> Algo está mal .. </string>
+</resources>

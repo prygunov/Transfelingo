@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Transfelingo</string>
+    <string name ="choiceLang">快速访问</string>
+        <string name ="settings">首选项</string>
+        <string name ="choice">收藏夹</string>
+        <string name ="translate">翻译</string>
+        <string name ="quickt">启动QuickT </string>
+        <string name ="langVoice">语音输入语言</string>
+        <string name ="quicktt">即时QuickT </string>
+        <string name ="quickdesc">如果您选择此功能，QuickT将立即将文本翻译成安装在翻译器中的语言，而无需进行确认。</string>
+        <string name ="emptyc">这里还没有任何东西;）</string>
+        <string name ="startw">开始写.. </string>
+        <string name ="now">现在只需复制单词;）</string>
+        <string name ="quickstart">启动QuickT </string>
+        <string name ="quickstop">停止QuickT </string>
+        <string name ="delitem">是否要删除历史记录？ </string>
+        <string name ="del">删除？ </string>
+        <string name ="yes">是</string>
+        <string name ="no">无</string>
+        <string name ="transl">翻译：</string>
+        <string name ="syn">同义词：</string>
+        <string name ="mean">值：</string>
+        <string name ="ex">例子：</string>
+        <string name ="error">发生错误，无法连接到服务器。</string>
+        <string name ="rod">。属</string>
+        <string name ="count">。数字</string>
+        <string name ="transcription">，转录：</string>
+    <string name ="send">发送</string>
+<string name ="fullsc">全屏</string>
+<string name ="loading">正在加载.. </string>
+        <string-array name ="voiceLang">
+        <item>俄语</item>
+        <item>土耳其语</item>
+        <item>英语</item>
+        <item>乌克兰</item>
+        </string-array>
+    <string name="title_activity_sellect_lang"> SellectLangActivity </string>
+<string name ="delete_text">用滑动删除文本</string>
+<string name ="text_copied">文字被复制</string>
+<string name ="key_invalid"> API密钥无效。</string>
+<string name ="key_locked"> API密钥已锁定。</string>
+<string name ="limit">超出了请求数量的每日限制。</string>
+<string name ="textsizeerror">已超出最大文字大小</string>
+<string name ="dirisntsupp">不支持指定的翻译方向。</string>
+<string name ="textcntbetr">文字无法翻译</string>
+<string name ="fromwhat">我们正在翻译什么语言？</string>
+<string name ="towhat">以什么语言？）</string>
+<string name ="somewr">有些事情是错误的。</string>
+
+
+</resources>

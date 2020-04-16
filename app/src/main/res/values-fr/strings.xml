@@ -1,0 +1,49 @@
+<resources>
+    <string name = "app_name"> Transfelingo </string>
+        <string name = "choiceLang"> Accès rapide </string>
+        <string name = "settings"> Préférences </string>
+        <string name = "choice"> Favoris </string>
+        <string name = "translate"> Traduire </string>
+        <string name = "quickt"> Démarrer QuickT </string>
+        <string name = "langVoice"> Langue d\'entrée vocale </string>
+        <string name = "quicktt"> Instant QuickT </string>
+        <string name = "quickdesc"> Si vous sélectionnez cette fonction, QuickT traduira immédiatement le texte, sans confirmation, dans les langues installées dans le traducteur. </string>
+        <string name = "emptyc"> Rien n\'est encore là;) </string>
+        <string name = "startw"> Commencer à écrire .. </string>
+        <string name = "now"> Maintenant, il suffit de copier les mots;) </string>
+        <string name = "quickstart"> Démarrer QuickT </string>
+        <string name = "quickstop"> Arrêtez QuickT </string>
+        <string name = "delitem"> Voulez-vous supprimer l\'élément d\'historique? </string>
+        <string name = "del"> Supprimer? </string>
+        <string name = "yes"> Oui </string>
+        <string name = "no"> Aucun </string>
+        <string name = "transl"> Traduction: </string>
+        <string name = "syn"> Synonymes: </string>
+        <string name = "mean"> Valeurs: </string>
+        <string name = "ex"> Exemples: </string>
+        <string name = "error"> Une erreur est survenue, impossible de se connecter au serveur. </string>
+        <string name = "rod">. genre </string>
+        <string name = "count">. nombre </string>
+        <string name = "transcription">, transcription: </string>
+    <string name = "send"> Envoyer </string>
+    <string name = "fullsc"> Plein écran </string>
+    <string name = "loading"> Chargement .. </string>
+        <string-array name = "voiceLang">
+        <item> Russe </item>
+        <item> Turc </item>
+        <item> Anglais </item>
+        <item> Ukrainien </item>
+        </string-array>
+    <string name = "title_activity_sellect_lang"> SellectLangActivity </string>
+    <string name = "delete_text"> Supprimer le texte avec glisser </string>
+    <string name = "text_copied"> Le texte a été copié </string>
+    <string name = "key_invalid"> La clé de l\'API est invalide. </string>
+    <string name = "key_locked"> La clé de l\'API est verrouillée. </string>
+    <string name = "limit"> La limite quotidienne du nombre de requêtes dépassées. </string>
+    <string name = "textsizeerror"> La taille maximale du texte a été dépassée. </string>
+    <string name = "dirisntsupp"> La direction de traduction spécifiée n\'est pas supportée. </string>
+    <string name = "textcntbetr"> Le texte ne peut pas être traduit </string>
+    <string name = "fromwhat"> De quelle langue traduisons-nous? </string>
+    <string name = "towhat"> A quelle langue?) </string>
+    <string name = "somewr"> Quelque chose ne va pas .. </string>
+</resources>

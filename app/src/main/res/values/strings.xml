@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Transfelingo</string>
+    <string name="choiceLang"> Quick Access </string>
+        
+    <string name="settings"> Preferences </string>
+        
+    <string name="choice"> Favorites </string>
+        
+    <string name="translate"> Translate </string>
+        
+    <string name="quickt"> Start QuickT </string>
+        
+    <string name="langVoice"> Voice input language </string>
+        
+    <string name="quicktt"> Instant QuickT </string>
+        
+    <string name="quickdesc"> If you select this function, QuickT will immediately translate the text, without confirmation, to those languages ​​that are installed in the translator. </string>
+        
+    <string name="emptyc"> Nothing is here yet;) </string>
+    <string name="startw">Start writing..</string>
+    <string name="now">Now just copy the words;)</string>
+    <string name="quickstart"> Start QuickT </string>
+        
+    <string name="quickstop"> Stop QuickT </string>
+    <string name="delitem"> Do you want to delete the history item? </string>
+        
+    <string name="del"> Delete? </string>
+        
+    <string name="yes"> Yes </string>
+        
+    <string name="no"> None </string>
+    <string name="transl"> Translation: </string>
+        
+    <string name="syn"> Synonyms: </string>
+        
+    <string name="mean"> Values: </string>
+        
+    <string name="ex"> Examples: </string>
+        
+    <string name="error"> An error occurred, can not connect to the server. </string>
+    <string name="rod">. genus </string>
+        
+    <string name="count">. number </string>
+        
+    <string name="transcription">, transcription: </string>
+    <string name="send">Send</string>
+    <string name="fullsc">Full screen</string>
+    <string name="loading">Loading..</string>
+        
+    <string-array name="voiceLang">        
+        <item> Russian </item>        
+        <item> Turkish </item>        
+        <item> English </item>        
+        <item> Ukrainian </item>
+    </string-array>
+
+    <string-array name="voiceLangValues">        
+        <item>RUSSIAN</item>        
+        <item>TURKISH</item>        
+        <item>ENGLISH</item>
+        <item>UKRAINIAN</item>    
+    </string-array>
+    <string name="title_activity_sellect_lang">SellectLangActivity</string>
+    <string name="delete_text">Delete text with swipe</string>
+    <string name="text_copied">Text was copied</string>
+    <string name="key_invalid">The API key is invalid.</string>
+    <string name="key_locked">The API key is locked.</string>
+    <string name="limit">The daily limit for the number of requests exceeded.</string>
+    <string name="textsizeerror">The maximum text size has been exceeded.</string>
+    <string name="dirisntsupp">The specified translation direction is not supported.</string>
+    <string name="textcntbetr">Text can not be translated</string>
+    <string name="fromwhat">From what language are we translating?</string>
+    <string name="towhat">To what language?)</string>
+    <string name="somewr">Something is wrong..</string>
+    <string name="speak_the_translation">Speak the translation</string>
+    <string name="title_activity_settings">Settings</string>
+
+</resources>

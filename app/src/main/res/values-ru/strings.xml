@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Transfelingo</string>
+    <string name="choiceLang">Быстрый доступ</string>
+    <string name="settings">Настройки</string>
+    <string name="choice">Избранное</string>
+    <string name="translate">Перевести</string>
+    <string name="quickstart">Запустить QuickT</string>
+    <string name="quickstop">Остановить QuickT</string>
+    <string name="langVoice">Язык голосового ввода</string>
+    <string name="quicktt">Мгновенный QuickT</string>
+    <string name="quickdesc">Если выбрать эту функцию, то QuickT сразу будет переводить текст, без подтверждения, по тем языкам, которые установлены в переводчике.</string>
+    <string name="emptyc">Здесь пока ничего нет ;)</string>
+    <string name="startw">Начните писать..</string>
+    <string name="delitem">Вы хотите удалить элемент истории?</string>
+    <string name="del">Удалить?</string>
+    <string name="yes">Да</string>
+    <string name="quickt">Запустить QuickT</string>
+    <string name="now">Теперь просто копируйте слова;)</string>
+    <string name="no">Нет</string>
+    <string name="transl">Перевод:</string>
+    <string name="syn">Синонимы:</string>
+    <string name="mean">Значения:</string>
+    <string name="ex">Примеры:</string>
+    <string name="rod">. род</string>
+    <string name="count">. число</string>
+    <string name="transcription">, транскрипция:</string>
+    <string name="error">Произошла ошибка, не удаётся установить соединение с сервером.</string>
+    <string name = "send"> Отправить </string>
+    <string name = "fullsc"> Во весь экран </string>
+    <string name = "loading"> Загрузка .. </string>
+    <string-array name="voiceLang">
+        <item>Русский</item>
+        <item>Турецкий</item>
+        <item>Английский</item>
+        <item>Украинский</item>
+    </string-array>
+    <string name = "title_activity_sellect_lang"> SellectLangActivity </string>
+    <string name = "delete_text"> Удалить текст спайпом </string>
+    <string name = "text_copied"> Текст скопирован </string>
+    <string name = "key_invalid"> Неверный ключ API. </string>
+    <string name = "key_locked"> Ключ API заблокирован. </string>
+    <string name = "limit"> Дневной предел для количества превышенных запросов. </string>
+    <string name = "textsizeerror"> Максимальный размер текста был превышен. </string>
+    <string name = "dirisntsupp"> Указанное направление перевода не поддерживается. </string>
+    <string name = "textcntbetr"> Текст не может быть переведен </string>
+    <string name = "fromwhat"> C какого языка мы переводим? </string>
+    <string name = "towhat"> На какой язык?) </string>
+    <string name = "somewr"> Что-то не так. </string>
+
+</resources>

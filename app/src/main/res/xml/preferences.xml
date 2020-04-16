@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Main">
+
+        <ListPreference
+            android:defaultValue="RUSSIAN"
+            android:entries="@array/voiceLang"
+            android:entryValues="@array/voiceLangValues"
+            android:key="langv"
+            android:shouldDisableView="false"
+            android:title="@string/langVoice"
+            />
+
+        <SwitchPreference
+            android:key="swipeInput"
+            android:title="@string/delete_text" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="QuickT">
+        <SwitchPreference
+            android:key="quickt"
+            android:defaultValue="false"
+            android:title="@string/quicktt"
+            android:summary="@string/quickdesc">
+        </SwitchPreference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
