@@ -18,11 +18,6 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AlertDialog;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
@@ -42,6 +37,11 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+
 import net.artux.transfelingo.Activities.MainActivity;
 import net.artux.transfelingo.HistoryAdapter;
 import net.artux.transfelingo.HistoryDbHelper;
@@ -58,20 +58,7 @@ import org.json.JSONArray;
 import java.util.ArrayList;
 import java.util.List;
 
-import ru.yandex.speechkit.Emotion;
-import ru.yandex.speechkit.Error;
 import ru.yandex.speechkit.Language;
-import ru.yandex.speechkit.OnlineModel;
-import ru.yandex.speechkit.OnlineRecognizer;
-import ru.yandex.speechkit.OnlineVocalizer;
-import ru.yandex.speechkit.Recognition;
-import ru.yandex.speechkit.Recognizer;
-import ru.yandex.speechkit.RecognizerListener;
-import ru.yandex.speechkit.Synthesis;
-import ru.yandex.speechkit.Track;
-import ru.yandex.speechkit.Vocalizer;
-import ru.yandex.speechkit.VocalizerListener;
-import ru.yandex.speechkit.Voice;
 
 import static android.app.Activity.RESULT_OK;
 import static android.content.Context.INPUT_METHOD_SERVICE;
@@ -105,8 +92,8 @@ public class MainFragment extends Fragment implements View.OnClickListener, Back
     String last; // последний ответ
 
     //далее - мои потоки, в которых происходит перевод.
-    OnlineRecognizer recognizer;
-    OnlineVocalizer vocalizer;
+    //OnlineRecognizer recognizer;
+   // OnlineVocalizer vocalizer;
 
     boolean focusClosed = true;
 
@@ -270,7 +257,7 @@ public class MainFragment extends Fragment implements View.OnClickListener, Back
         });
 
 
-        vocalizer = new OnlineVocalizer.Builder(Language.RUSSIAN, new VocalizerListener() {
+       /* vocalizer = new OnlineVocalizer.Builder(Language.RUSSIAN, new VocalizerListener() {
             @Override
             public void onSynthesisDone(@NonNull Vocalizer vocalizer) {
 
@@ -300,14 +287,14 @@ public class MainFragment extends Fragment implements View.OnClickListener, Back
                 .setVoice(Voice.ERMIL)
                 .build(); // 1
         vocalizer.prepare(); // 2
-
+*/
 
         vocalaizeImage = mainView.findViewById(R.id.vocalaize);
         vocalaizeImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                vocalizer.synthesize(lastAnswer.saveTextTo, Vocalizer.TextSynthesizingMode.APPEND);
+               // vocalizer.synthesize(lastAnswer.saveTextTo, Vocalizer.TextSynthesizingMode.APPEND);
 
             }
         });
@@ -316,7 +303,7 @@ public class MainFragment extends Fragment implements View.OnClickListener, Back
 
         voiceImage.performLongClick();
 
-        final OnlineRecognizer recognizer = new OnlineRecognizer.Builder(getVoiceLang(), OnlineModel.QUERIES, new RecognizerListener() {
+        /*final OnlineRecognizer recognizer = new OnlineRecognizer.Builder(getVoiceLang(), OnlineModel.QUERIES, new RecognizerListener() {
             @Override
             public void onRecordingBegin(@NonNull Recognizer recognizer) {
 
@@ -367,7 +354,7 @@ public class MainFragment extends Fragment implements View.OnClickListener, Back
                 .setDisableAntimat(false)
                 .setEnablePunctuation(true)
                 .build(); // 1
-        recognizer.prepare(); // 2
+        recognizer.prepare(); // 2*/
         // Here, thisActivity is the current activity
         if (ContextCompat.checkSelfPermission(getActivity(),
                 Manifest.permission.RECORD_AUDIO)
@@ -418,7 +405,7 @@ public class MainFragment extends Fragment implements View.OnClickListener, Back
                         // result of the request.
                     }
                 } else {
-                    recognizer.startRecording();
+                    //recognizer.startRecording();
                 }
 
 

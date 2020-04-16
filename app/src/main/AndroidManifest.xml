@@ -8,7 +8,6 @@
     <uses-permission android:name="android.permission.READ_CLIPS" />
     <uses-permission android:name="android.permission.WRITE_CLIPS" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
-    <uses-permission android:name="android.permission.CAPTURE_AUDIO_OUTPUT"/>
 
     <application
         android:name="net.artux.transfelingo.utills.TranslateHelper"

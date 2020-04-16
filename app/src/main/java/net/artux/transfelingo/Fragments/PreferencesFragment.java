@@ -2,7 +2,8 @@ package net.artux.transfelingo.Fragments;
 
 import android.os.Bundle;
 import android.preference.PreferenceFragment;
-import android.support.annotation.Nullable;
+
+import androidx.annotation.Nullable;
 
 import net.artux.transfelingo.R;
 
