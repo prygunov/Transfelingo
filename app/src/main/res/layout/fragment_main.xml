@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:animateLayoutChanges="true"
-    tools:context="com.devilsoftware.transfelingo.Activities.MainActivity">
+    tools:context="com.devilsoftware.transfelingo.net.devilsoftware.transfelingo.Activities.MainActivity">
 
     <EditText
         android:layout_height="0dp"

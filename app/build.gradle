@@ -1,19 +1,11 @@
 apply plugin: 'com.android.application'
 
 android {
-    signingConfigs {
-        release {
-            keyAlias 'keytranslingo'
-            keyPassword 'Maks1234'
-            storeFile file('/home/maxim/Transfelingo/devilsoftware.jks')
-            storePassword 'Maks1234'
-        }
-    }
     compileSdkVersion 26
     buildToolsVersion '27.0.3'
     useLibrary 'org.apache.http.legacy'
     defaultConfig {
-        applicationId "com.devilsoftware.transfelingo"
+        applicationId "net.artux.transfelingo"
         minSdkVersion 16
         targetSdkVersion 26
         versionCode 17
@@ -25,7 +17,6 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.release
         }
     }
 }

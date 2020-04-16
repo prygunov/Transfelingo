@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.devilsoftware.transfelingo.SelectLangActivity"
+    tools:context="com.devilsoftware.transfelingo.net.devilsoftware.transfelingo.SelectLangActivity"
     tools:showIn="@layout/activity_sellect_lang">
 
     <EditText
